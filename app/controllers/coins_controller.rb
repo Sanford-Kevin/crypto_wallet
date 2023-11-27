@@ -53,10 +53,10 @@ class CoinsController < ApplicationController
     @coin.destroy
 
     respond_to do |format|
-      format.html { redirect_to coins_url, notice: "Coin was successfully destroyed." }
+      format.html { redirect_to coins_url, notice: "Moeda foi apagada com SUCESSO!" }
       format.json { head :no_content }
     end
-  end
+  end 
 
   private
     # Use callbacks to share common setup or constraints between actions.
